@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Min Todo App</h1>
+  
+  <div class="input-container">
+    <input type="text" id="new-task" placeholder="Vad behöver du göra?">
+    <button id="add-task-btn">Lägg till</button>
+  </div>
+  
+  <ul id="task-list">
+    <!-- Förinställda uppgifter -->
+    <li><span>Ring förskola</span> <button class="complete-btn">Bocka av</button></li>
+    <li><span>Träna</span> <button class="complete-btn">Bocka av</button></li>
+    <li><span>Åk till jobbet</span> <button class="complete-btn">Bocka av</button></li>
+  </ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
